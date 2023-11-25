@@ -174,11 +174,11 @@ namespace WinApp
             // 
             // btnAlta
             // 
-            this.btnAlta.Location = new System.Drawing.Point(59, 380);
+            this.btnAlta.Location = new System.Drawing.Point(44, 380);
             this.btnAlta.Name = "btnAlta";
-            this.btnAlta.Size = new System.Drawing.Size(75, 23);
+            this.btnAlta.Size = new System.Drawing.Size(90, 23);
             this.btnAlta.TabIndex = 12;
-            this.btnAlta.Text = "Crear";
+            this.btnAlta.Text = "Crear Usuario";
             this.btnAlta.UseVisualStyleBackColor = true;
             this.btnAlta.Click += new System.EventHandler(this.btnAlta_Click);
             // 
