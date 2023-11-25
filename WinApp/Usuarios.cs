@@ -110,6 +110,8 @@ namespace WinApp
 
             //Vuelvo a aparecer
             this.Show();
+
+            MessageBox.Show("Gracias por utilizar el alta del usuario");
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)

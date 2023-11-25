@@ -22,6 +22,11 @@ namespace DomainModel
         public int IntentosFallidos { get; set; }
 
         public string NroDoc { get; set; }
+
+        public string GetFullName()
+        {
+            return UserName + " " + NroDoc;
+        }
        
     }
 }
